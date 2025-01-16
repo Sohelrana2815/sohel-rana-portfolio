@@ -1,5 +1,5 @@
-import arrayDestruct from "../../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../../assets/portfolio/installNode.jpg";
+import dailyLens from "../../assets/portfolio/dailyLens.png";
+import easyHire from "../../assets/portfolio/easyHire.png";
 import navbar from "../../assets/portfolio/navbar.jpg";
 import reactParallax from "../../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../../assets/portfolio/reactSmooth.jpg";
@@ -8,11 +8,11 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: dailyLens,
     },
     {
       id: 2,
-      src: installNode,
+      src: easyHire,
     },
     {
       id: 3,
