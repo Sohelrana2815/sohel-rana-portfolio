@@ -1,5 +1,5 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import HeroImage from "../../assets/heroImage.png";
+import HeroImage from "../../assets/heroImage.jpg";
 import { Link } from "react-scroll";
 const Home = () => {
   return (
@@ -13,10 +13,9 @@ const Home = () => {
             I&apos;am a MERN Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            beatae magnam in deleniti doloribus dolorem fuga ut nam, vitae, ad
-            aut nihil cupiditate! Provident officia aut voluptates illum iste
-            dignissimos?
+            I&lsquo;m passionate about crafting user-friendly web applications
+            that solve real-world problems. My goal is to transform ideas into
+            efficient and scalable digital solutions.
           </p>
           <div>
             <Link
@@ -36,7 +35,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="My Profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-[340px]"
           />
         </div>
       </div>

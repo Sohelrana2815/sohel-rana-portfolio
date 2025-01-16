@@ -12,21 +12,23 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-          tempore at. Ipsam perferendis repellat, doloremque soluta porro sequi.
-          Minima, aliquam. Itaque aliquam autem sit in illo hic aperiam optio et
-          aspernatur iste est nobis eligendi dolore omnis cum, modi incidunt!
-          Est non expedita unde natus assumenda, facere tempora necessitatibus
-          minus.
+          Hi, I&apos;m Sohel Rana, a passionate and dedicated university student
+          with a lifelong love for computers and technology. From a young age,
+          I’ve been fascinated by how software and websites can solve real-world
+          problems. After finishing high school, I decided to dive into
+          programming to turn my passion into a career.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt omnis
-          assumenda, inventore explicabo nihil tempore et doloribus! Animi quasi
-          corrupti quia quam, esse beatae aperiam maxime assumenda cumque sequi
-          laborum modi ipsam similique eaque sunt distinctio dolorem. Optio quo
-          laborum earum neque eligendi a natus nihil minima deleniti! Rem,
-          commodi.
+          Recognizing the growing demand for web and software solutions, I
+          joined the Programming Hero course, where I mastered the MERN Stack
+          (MongoDB, Express.js, React, Node.js). Throughout my learning journey,
+          I’ve built 12 small to mid-sized MERN stack projects, giving me over{" "}
+          <span className="text-blue-500">1 year of hands-on experience.</span>{" "}
+          Currently, I’m continuously upgrading my skills and exploring new
+          technologies to stay ahead in the ever-evolving tech world. I’m eager
+          to gain real-life experience through impactful opportunities where I
+          can contribute, learn, and grow as a developer.
         </p>
       </div>
     </div>
