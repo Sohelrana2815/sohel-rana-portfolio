@@ -44,7 +44,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Sohel_Rana_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

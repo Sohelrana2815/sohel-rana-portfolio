@@ -31,11 +31,11 @@ const Home = () => {
               </span>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1Num4r9FHujpk_cqooS6MAco0oyEekiUw/view?usp=drive_link"
+              href="https://drive.google.com/file/d/16WecTSdaAbAOQhFDuJk2-gaK0t0EkXK5/view?usp=drive_link"
               download="Your_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white lg:hidden md: w-fit px-6 py-3 my-2 flex items-center justify-center rounded-md bg-gradient-to-r from-green-500 to-lime-500 cursor-pointer"
+              className="text-white md: w-fit px-6 py-3 my-2 flex items-center justify-center rounded-md bg-gradient-to-r from-green-500 to-lime-500 cursor-pointer"
             >
               View Resume
               <span className="group-hover:rotate-90 duration-300 ">
