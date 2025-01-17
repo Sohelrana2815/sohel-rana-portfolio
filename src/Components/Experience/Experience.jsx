@@ -2,8 +2,8 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
 import reactImage from "../../assets/react.png";
-import nextjs from "../../assets/nextjs.png";
-import graphql from "../../assets/graphql.png";
+import expressJs from "../../assets/expressJs.png";
+import mongoDB from "../../assets/mongoDB.png";
 import github from "../../assets/github.png";
 import tailwind from "../../assets/tailwind.png";
 
@@ -39,26 +39,21 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
+
     {
       id: 6,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 7,
-      src: nextjs,
-      title: "Next JS",
+      src: expressJs,
+      title: "Express JS",
       style: "shadow-white",
     },
     {
-      id: 8,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      id: 7,
+      src: mongoDB,
+      title: "Mongo DB",
+      style: "shadow-green-400",
     },
     {
-      id: 9,
+      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

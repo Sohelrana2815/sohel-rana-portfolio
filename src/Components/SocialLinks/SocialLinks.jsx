@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com",
+      href: "https://www.linkedin.com/in/sohel-rana-93423a2ba/",
       style: "rounded-tr-md",
     },
     {

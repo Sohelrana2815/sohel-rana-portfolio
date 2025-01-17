@@ -1,34 +1,46 @@
 import dailyLens from "../../assets/portfolio/dailyLens.png";
 import easyHire from "../../assets/portfolio/easyHire.png";
-import navbar from "../../assets/portfolio/navbar.jpg";
-import reactParallax from "../../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../../assets/portfolio/reactWeather.jpg";
+import glowMartBD from "../../assets/portfolio/glowMartBD.png";
+import studyFlow from "../../assets/portfolio/studyFlow.png";
+import govtRealEstate from "../../assets/portfolio/govtRealEstate.png";
+import bookVibe from "../../assets/portfolio/bookVibe.png";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: dailyLens,
+      demoLink: "https://daily-lens-90dd8.web.app",
+      codeLink: "https://github.com/Sohelrana2815/daily-lens-front-end",
     },
     {
       id: 2,
       src: easyHire,
+      demoLink: "https://easy-hire-e14d3.web.app",
+      codeLink: "https://github.com/Sohelrana2815/easy-hire-front-end",
     },
     {
       id: 3,
-      src: navbar,
+      src: glowMartBD,
+      demoLink: "https://glow-mart-bd.web.app",
+      codeLink: "https://github.com/Sohelrana2815/glow-mart-bd-client",
     },
     {
       id: 4,
-      src: reactParallax,
+      src: studyFlow,
+      demoLink: "https://stydy-flow.web.app",
+      codeLink: "https://github.com/Sohelrana2815/study-flow-client?tab=readme-ov-file",
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: govtRealEstate,
+      demoLink: "https://gov-real-estate.web.app",
+      codeLink: "https://github.com/Sohelrana2815/Gov-Real-Estate",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: bookVibe,
+      demoLink: "https://book-hub-srm.netlify.app",
+      codeLink: "https://github.com/Sohelrana2815/book-vibe",
     },
   ];
 
@@ -47,7 +59,7 @@ const Portfolio = () => {
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12  sm:px-0">
-            {portfolios.map(({ id, src }) => (
+            {portfolios.map(({ id, src, demoLink, codeLink }) => (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={src}
@@ -55,10 +67,16 @@ const Portfolio = () => {
                   className="rounded-md duration-200 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
-                  <button className="w-1/2  px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button
+                    onClick={() => window.open(demoLink, "_blank", "noopener")}
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  >
                     Demo
                   </button>
-                  <button className="w-1/2  px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button
+                    onClick={() => window.open(codeLink, "_blank", "noopener")}
+                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  >
                     Code
                   </button>
                 </div>

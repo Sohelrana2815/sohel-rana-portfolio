@@ -1,6 +1,7 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import HeroImage from "../../assets/heroImage.jpg";
 import { Link } from "react-scroll";
+import { GiNotebook } from "react-icons/gi";
 const Home = () => {
   return (
     <div
@@ -17,7 +18,7 @@ const Home = () => {
             that solve real-world problems. My goal is to transform ideas into
             efficient and scalable digital solutions.
           </p>
-          <div>
+          <div className="flex items-center gap-x-4">
             <Link
               to="portfolio"
               smooth
@@ -29,6 +30,18 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            <a
+              href="https://drive.google.com/file/d/1Num4r9FHujpk_cqooS6MAco0oyEekiUw/view?usp=drive_link"
+              download="Your_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white lg:hidden md: w-fit px-6 py-3 my-2 flex items-center justify-center rounded-md bg-gradient-to-r from-green-500 to-lime-500 cursor-pointer"
+            >
+              View Resume
+              <span className="group-hover:rotate-90 duration-300 ">
+                <GiNotebook size={25} className="ml-1" />
+              </span>
+            </a>
           </div>
         </div>
         <div>
