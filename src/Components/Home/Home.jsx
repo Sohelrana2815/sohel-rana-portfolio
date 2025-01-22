@@ -31,7 +31,7 @@ const Home = () => {
               </span>
             </Link>
             <a
-              href="https://drive.google.com/file/d/16WecTSdaAbAOQhFDuJk2-gaK0t0EkXK5/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1A18iQxhXIcZtC68PeZJhpgEyZM7fuI8S/view?usp=drive_link"
               download="Your_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
