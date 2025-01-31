@@ -1,5 +1,5 @@
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import HeroImage from "../../assets/heroImage.jpg";
+import HeroImage from "../../assets/heroImage.webp";
 import { Link } from "react-scroll";
 import { GiNotebook } from "react-icons/gi";
 const Home = () => {

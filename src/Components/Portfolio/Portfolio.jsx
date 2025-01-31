@@ -1,9 +1,9 @@
-import dailyLens from "../../assets/portfolio/dailyLens.png";
+import dailyLens from "../../assets/portfolio/dailyLens.webp";
 import easyHire from "../../assets/portfolio/easyHire.png";
 import glowMartBD from "../../assets/portfolio/glowMartBD.png";
 import studyFlow from "../../assets/portfolio/studyFlow.png";
 import govtRealEstate from "../../assets/portfolio/govtRealEstate.png";
-import bookVibe from "../../assets/portfolio/bookVibe.png";
+import bookVibe from "../../assets/portfolio/bookVibe.webp";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -28,7 +28,8 @@ const Portfolio = () => {
       id: 4,
       src: studyFlow,
       demoLink: "https://stydy-flow.web.app",
-      codeLink: "https://github.com/Sohelrana2815/study-flow-client?tab=readme-ov-file",
+      codeLink:
+        "https://github.com/Sohelrana2815/study-flow-client?tab=readme-ov-file",
     },
     {
       id: 5,
